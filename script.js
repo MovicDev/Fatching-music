@@ -37,7 +37,7 @@ const fetchMe = () =>{
             <div class="col-3 shadow-sm">
             <h3>${user.artistName}</h3>
             <p>${user.songTitle}</p>
-            <img src='${user.songImage}' alt='image' width='300' /> </audio><br>
+            <img src='${user.songImage}' alt='image' width='300' height="300" /> </audio><br>
             <audio src='${user.songUrl}' controls>
             </div>
             `
